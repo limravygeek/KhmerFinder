@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choose_level"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/category_background"
+    tools:context="com.hangtom.ravy.khmerfinder.activity.ChooseLevelActivity">
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center|center_horizontal"
+        android:src="@drawable/category_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:background="@drawable/button_easy"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btn_easy">
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:background="@drawable/selector_category_shape_button"
+            android:textAlignment="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_vertical|right"
+            android:orientation="vertical"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="70dp"
+            android:layout_height="95dp">
+            <TextView
+                android:id="@+id/txt_easy"
+                android:textColor="#ffff"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="ស្រួល"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_level_played_easy"
+                android:textColor="#ffff"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="23/40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <!--button__medium-->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:background="@drawable/button_medium"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btn_medium">
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:background="@drawable/selector_category_shape_button"
+            android:textAlignment="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_vertical|right"
+            android:orientation="vertical"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="70dp"
+            android:layout_height="95dp">
+            <TextView
+                android:id="@+id/txt_medium"
+                android:textColor="#ffff"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="ពិបាក"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt_level_played_medium"
+                android:textColor="#ffff"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="23/40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <!--button__hard-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:background="@drawable/button_hard"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btn_hard">
+                <LinearLayout
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/selector_category_shape_button"
+                    android:textAlignment="center"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_gravity="center_vertical|right"
+                    android:orientation="vertical"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="95dp">
+                    <TextView
+                        android:id="@+id/txt_hard"
+                        android:textColor="#ffff"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:text="ពិបាកបំផុត"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/txt_level_played_hard"
+                        android:textColor="#ffff"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:text="23/40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

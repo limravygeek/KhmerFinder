@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minWidth="300dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="-10dp"
+            android:background="@drawable/alertdialog_header_shape_bg"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@mipmap/icon"
+                android:scaleType="fitStart"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="22dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="9"
+                android:text="Khmer Finder"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvMessage"
+                android:scrollbars="vertical"
+                android:layout_marginLeft="10dp"
+                android:lines="100"
+                android:textSize="18dp"
+                android:gravity="top"
+                android:layout_gravity="center_vertical"
+                android:text="Khmer Finder is the best game in cambodia show please download!!!sdvshfvdshfvsdfhgsdfvdshgfvdshgvsdfjhvsdfjdsfsdfdsfhsdfsdfdsfsdfdsffdsfsdfsdfsdfsdsfsfdsfsdfsdfsdfsdfdsfsdfdfsdfsdfsdfsdfsdfdsfsdfsdfsdfsdfsdfdsffsddfddsfdsfsdf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_height="60dp"
+            android:background="@drawable/alertdialog_shape_bg"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:background="@drawable/button_shape_bg_cancel"
+                android:id="@+id/btnCancel"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:layout_width="50dp"
+                android:textColor="#f71818"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+            <Button
+                android:textColor="#0fac3c"
+                android:background="@drawable/button_shape_bg_ok"
+                android:id="@+id/btnOk"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="UPDATE" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

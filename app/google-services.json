@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "999340646529",
+    "firebase_url": "https://khmer-finder.firebaseio.com",
+    "project_id": "khmer-finder",
+    "storage_bucket": "khmer-finder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999340646529:android:b3df5be058ffba78",
+        "android_client_info": {
+          "package_name": "com.hangtom.ravy.khmerfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999340646529-mjeln8uhfsmndhk35h2gdh495g7u54sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKP6fSPjsDloKeTY3YwByzpyQED4Ch4KY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

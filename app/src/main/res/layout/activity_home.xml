@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/home_background"
+    tools:context="com.hangtom.ravy.khmerfinder.activity.HomeActivity">
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:gravity="right"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         <Button
+             android:id="@+id/btnSetting"
+             android:background="@drawable/button_setting"
+             android:layout_width="50dp"
+             android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="9"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+                <Button
+                    android:background="@drawable/button_play"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/button"
+                    android:id="@+id/btn_play" />
+
+                <Button
+                    android:background="@drawable/button_levels"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/btn_level" />
+
+                <Button
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_get_hint"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_getHint"
+                    />
+
+                <Button
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_share"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_sharefb"
+                    />
+    </LinearLayout>
+
+</LinearLayout>
